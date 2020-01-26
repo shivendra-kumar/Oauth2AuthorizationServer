@@ -22,3 +22,12 @@
 
 * Resource Access with throttling limit of 5 requests per 2 minutes
 ![Resource Access with Throttling Limit](ResourceAccessWithThrottling.gif)
+
+## Usage:
+* Download the source and build it using ``mvn clean package``
+* Run the application using ``java -jar Oauth2AuthorizationServer-1.0.jar``
+* Rest calls can be made as shown in demo above by sending appropriate reqeusts to http://localhost:8087
+* **Note:** Redis server must be configured in application.properties for this app to work.
+
+## License:
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
