@@ -17,6 +17,7 @@
 ![API throttling limit](SetThrottlingLimit.gif)
 
 * Generating access token
+* **Note:** client secret passed in request must be decrypted one
 ![Access token generation](TokenGeneration.gif)
 
 * Resource Access with throttling limit of 5 requests per 2 minutes
